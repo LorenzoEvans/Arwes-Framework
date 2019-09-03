@@ -7,7 +7,7 @@ import { Arwes, ThemeProvider, createTheme } from 'arwes'
 
 ReactDOM.render(
 <ThemeProvider theme={createTheme()}>
-  <Arwes>
+  <Arwes animate>
     <App />
   </Arwes>
 </ThemeProvider>
