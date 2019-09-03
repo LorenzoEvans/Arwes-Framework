@@ -1,8 +1,8 @@
 import React from 'react';
-import {Words, Links, Grid, Frame, Header, Content, Arwes, Project, Link} from 'arwes'
+import {Words, Links, Grid, Frame, Header, Table, Content, Arwes, Project, Link} from 'arwes'
 const TAO = () => {
   return (
-    <div>
+    <div style={{margin: 20}}>
       <Arwes>
         <Project animate header='T.A.O.' style={{display: "flex", flexDirection: "column"}}>
           <Words>
@@ -15,6 +15,7 @@ const TAO = () => {
       <h2>
       The Ancient Ones
       </h2>
+
       </Content>
       </Arwes>
     </div>

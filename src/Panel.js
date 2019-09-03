@@ -1,5 +1,5 @@
 import React from 'react';
-import {Header, Link, Project, Words} from "arwes";
+import {Content, Header, Link, Project, Table, Words} from "arwes";
 
 export const Panel = () => {
   return (
@@ -13,6 +13,15 @@ export const Panel = () => {
         <Link style={{margin: 20}} href={"/Ynxlxrvae"}>The Ynxlxrvae</Link>
         <Link style={{margin: 20}} href={"/Ancient_Ones"}>The Ancient Ones</Link>
         <Link  style={{margin: 20}}href={"/Hyvaeans"}>The Hyvaeans</Link>
+        <Table
+          animate
+          headers={['Age', 'Home', 'K-Scale', 'Description']}
+          dataset={[
+            ['The Ancient Ones', 'Unknown', "N/A", 'Very little known.'],
+            ['The Ynxlxrvae', 'Afirma', 'V-VII', 'Non-solid, pure consciousness'],
+            ['The Hyvaeans', 'Unknown', 'I-III', 'Little known, dimensional travelers'],
+          ]}
+        />
       </Project>
     </div>
   );
