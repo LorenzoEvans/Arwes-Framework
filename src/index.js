@@ -6,9 +6,11 @@ import * as serviceWorker from './serviceWorker';
 import { Arwes, ThemeProvider, createTheme } from 'arwes'
 
 ReactDOM.render(
-<Arwes theme={createTheme()}>
-  <App />
-</Arwes>
+<ThemeProvider theme={createTheme()}>
+  <Arwes>
+    <App />
+  </Arwes>
+</ThemeProvider>
 , document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
