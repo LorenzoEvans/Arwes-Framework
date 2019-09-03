@@ -6,7 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { Arwes, ThemeProvider, createTheme } from 'arwes'
 
 ReactDOM.render(
-<Arwes>
+<Arwes theme={createTheme()}>
   <App />
 </Arwes>
 , document.getElementById('root'));
