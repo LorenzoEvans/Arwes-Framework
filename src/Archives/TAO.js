@@ -1,5 +1,5 @@
 import React from 'react';
-import {Words, Links, Grid, Frame, Header, Table, Content, Arwes, Project, Link} from 'arwes'
+import {Words, Blockquote, Heading, Content, Arwes, Project, Link} from 'arwes'
 const TAO = () => {
   return (
     <div style={{margin: 20}}>
@@ -12,9 +12,21 @@ const TAO = () => {
           </Words>
         </Project>
       <Content style={{margin: 20}}>
-      <h2>
+      <Heading>
       The Ancient Ones
-      </h2>
+      </Heading>
+        <Words>
+          The ancient ones do not announce their arrival. Their arrival announces itself.
+          There is very little information on them, because of what they do.
+          They come from a dying universe, kept on life support, by their technology.
+          They keep their universe alive, by siphoning the energy of other universes, to feed their technology, and universe.
+          It is said by my people that no one lives long enough to say how long they've been alive.
+
+        </Words>
+      <Blockquote>
+        It is said that the universe shakes when they arrive.
+
+      </Blockquote>
 
       </Content>
       </Arwes>
